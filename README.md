@@ -13,10 +13,14 @@
 ### API
 
 Настроен для просмотра, создания и изменения модели Client и MessageList с использованием:
+---
 viewsets:
+---
   - ClientViewSet
   - MessageListViewSet и сериализаторов
+---
 serialializers:
+---
   - ClientSerializer
   - MessageListCreateViewSet
   - MessageListGetSerializer
